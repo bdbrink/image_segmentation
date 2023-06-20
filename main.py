@@ -8,5 +8,6 @@ plt.imshow(image)
 
 print(image.shape)
 
+# condense first two coordinates into one dimension
 x = image.reshape(-1, 3)
 print(x.shape)
